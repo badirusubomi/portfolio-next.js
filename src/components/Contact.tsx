@@ -64,7 +64,7 @@ export function Contact() {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com/in/badirusubomi"
+                href="https://www.linkedin.com/in/olasubomi-badiru-338a87208/"
                 target="_blank"
                 rel="noopener noreferrer"
                 id="social-linkedin"
@@ -95,9 +95,9 @@ export function Contact() {
           <span className="font-mono text-xs text-foreground-dim">
             © {new Date().getFullYear()} Olasubomi Badiru
           </span>
-          <span className="font-mono text-xs text-foreground-dim">
+          {/* <span className="font-mono text-xs text-foreground-dim">
             Built with Next.js · Designed with intention
-          </span>
+          </span> */}
         </div>
       </div>
     </section>
