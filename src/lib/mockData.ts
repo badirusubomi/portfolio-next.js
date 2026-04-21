@@ -32,11 +32,11 @@ export const projects: Project[] = [
     _id: "1",
     title: "Transpo — Audio Technology Platform",
     slug: { current: "transpo-audio" },
-    thumbnail: "/images/transpo-2.png",
+    thumbnail: "/images/transpo/transpo-landing.png",
     screenshots: [
-      "/images/transpo-1.webp",
-      "/images/transpo-2.webp",
-      "/images/transpo-3.webp",
+      "/images/transpo/transpo-1.jpg",
+      "/images/transpo/transpo-2.png",
+      // "/images/transpo/transpo-3.png",
     ],
     summary:
       "A real-time pitch transposition engine for musicians. Built as a Chrome extension that intercepts browser audio streams and applies DSP processing via the Web Audio API.",
@@ -99,9 +99,9 @@ export const experiences: Experience[] = [
     company: "Earna",
     period: "Sept. 2024 – Jan 2025",
     description: [
-      "Designed and implemented gold-layer data models and Power BI dashboards using star schema and DAX to deliver actionable KPI insights.",
-      "Automated analytics workflows including testing, reporting, and deployment using GitHub Actions.",
-      "Performed data validation and anomaly detection using Python and SQL, ensuring high data quality for downstream analytics.",
+      "Automated AWS Kubernetes deployments with ArgoCD, cutting deployment time by 60% and boosting release frequency to daily.",
+      "Built and maintained backend microservices with NestJS, TypeScript, and Docker; achieved 90%+ unit test coverage and reduced production bugs 40% via SonarQube.",
+      "Integrated Kong API Gateway to secure and route traffic, reducing API latency by 25% and ensuring 99.9% uptime.",
     ],
   },
 ];
